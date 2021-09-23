@@ -52,8 +52,8 @@ Two simple baseline models were built by considering the most common words that 
 
 For each subreddit, a list of frequent words that occur in it but not frequently in the other is constructed.
 
-- Model 1: If a post contains at least one word from this list for r/languagelearning, it is classified to be from that r/languagelearning, else r/linguistics.
-- Model 2: If a post contains at least one word from this list for r/linguistics, it is classified to be from that r/linguistics, r/languagelearning.
+- Model 1: If a post contains at least one word from this list for r/languagelearning, it is classified to be from r/languagelearning, else r/linguistics.
+- Model 2: If a post contains at least one word from this list for r/linguistics, it is classified to be from r/linguistics, r/languagelearning.
 
 These models were iterated for various lengths of the frequent words list.
 
